@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KoKoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div> 
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-2x"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+        <!-- 어디의 column인지 나타내기 쉽게 하기 위해 "부모__자식"의 형태처럼 직관적으로 클래스명을 지어줌 -->
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+        <p class="welcome-header__text">If you have a KoaKoa Account, log in with your email or phone number.</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Sign Up" />
+    </form>
+
+    <a href="#">Fixed Kokoa Account or Password</a>
+
+    <script src="https://kit.fontawesome.com/21abba9a24.js" 
+    crossorigin="anonymous">
+    </script>
+    <!-- script는 항상 마지막에 위치 -->
+</body>
+</html>
